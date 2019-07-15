@@ -1,16 +1,23 @@
 # Evaluation
 Modular aufgebaut Projekt erstellen mit Ember cli
+
 ember serve
+
 Ordnerstruktur ist schon vorgegeben: models, routes, styles, components, …
+
 application.hbs --> einzelne Komponenten
+
 Component: .hbs und .js File
+
 .hbs :
-import Component from '@ember/component';
-var comments = [];
-export default Component.extend({
-lastName: 'Glowacki', favoriteFramework: 'Ember', });
-{{input class="form-control" placeholder="Dornbirn" value=location}}
-<button {{action "addComment"}} id="submit" type="submit" class="btn btn-primary button-right-bottom">Absenden
+
+* import Component from '@ember/component';
+* var comments = [];
+* export default Component.extend({
+* lastName: 'Glowacki', favoriteFramework: 'Ember', });
+* {{input class="form-control" placeholder="Dornbirn" value=location}}
+* <button {{action "addComment"}} id="submit" type="submit" class="btn btn-primary button-right-bottom">Absenden</button>
+
 Ähnlich wie React oder Angular – basiert auch darauf
 
 
